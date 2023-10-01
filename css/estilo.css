@@ -1,0 +1,136 @@
+
+/* Fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #39A9DB, #40BCD8);
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+}
+
+/* Formatação para o formulário*/
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: #333;
+
+}
+
+fieldset{
+    border: solid 2px black;
+    border-radius: 8px;
+    width: 88%;
+}
+
+form {
+    width: 30%;
+    margin: 180px auto;
+    padding: 24px;
+    background-color: #FFF;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 1);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+h2{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+button {
+    background-color: #F39237;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 150px;
+    /*tamanho mínimo*/
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #ccc;
+    color: #333;
+}
+
+
+input[type=text],
+select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+input[type=date]{
+    width: 115px;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+input[type=checkbox] {
+    float: left;
+    width: 15px;
+    margin-top: 15px;
+}
+
+/* formatação para o cabeçalho */
+.topnav {
+    background-color: #646364;
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    width: 15%;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(94, 94, 94);
+    color: rgb(40, 147, 255);
+    border-radius: 8px;
+
+}
+
+#zerar {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#loboNoMenu {
+    padding-top: 6px;
+      width: 60px;
+      
+}
+
+#fonte{
+    font-family: 'Merriweather', serif;
+}
+
+
